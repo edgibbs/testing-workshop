@@ -18,7 +18,7 @@ import getTokenFromHeader from '../get-token-from-header'
 test('this is the title of your test', () => {
   // this is where you put your test code. Write code that will
   // throw an error if getTokenFromHeader has a bug. The `expect`
-  // global is a utility that makes writing such assertions easier,
+  // global is a utility that makes writting such assertions easier,
   // but you can do it however you like.
 })
 
@@ -29,8 +29,7 @@ test('this is the title of your test', () => {
 // 3. Change submitted from `false` to `true`
 // 4. And you're all done!
 /*
-http://ws.kcd.im/?ws=Testing&e=API%20Unit&em=
-*/
+http://ws.kcd.im/?ws=Testing&e=API%20Unit&em=edward_gibbs@yahoo.com*/
 test.skip('I submitted my elaboration and feedback', () => {
   const submitted = false // change this when you've submitted!
   expect(true).toBe(submitted)
